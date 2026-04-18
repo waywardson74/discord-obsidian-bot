@@ -5,6 +5,7 @@ const path = require('path');
 // ===== CONFIG =====
 const TOKEN = process.env.TOKEN;
 const CHANNEL_ID = process.env.CHANNEL_ID;
+console.log("TOKEN LENGTH:", process.env.TOKEN?.length);
 const VAULT_PATH = "C:\\Users\\dariu\\OneDrive\\Documents\\Mind Palace\\The Mind Palace\\Inbox\\Discord";
 // ==================
 
